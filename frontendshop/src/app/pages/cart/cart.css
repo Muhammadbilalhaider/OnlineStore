@@ -1,0 +1,130 @@
+.mainCart {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.total-amount {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shippingCart {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.shippingCart button {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #eca711;
+}
+
+.entireList {
+    display: flex;
+    justify-content: center;
+
+}
+
+.listCart {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: row;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img img {
+    width: 100px;
+    height: 80px;
+}
+
+.product-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.product-info p {
+    margin: 0;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #007bff;
+    align-items: center;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-quantity {
+    color: #28a745;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.shippingCart :hover {
+    cursor: pointer;
+    background-color: rgb(255, 117, 4);
+}
+
+/* Add these styles to your existing CSS or create a new CSS file */
+.product-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-icon:hover {
+    color: #007bff;
+}
+
+.delete-icon:hover {
+    color: #ff0000;
+
+}

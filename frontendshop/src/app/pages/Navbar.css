@@ -1,0 +1,105 @@
+.MainNav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 102, 0);
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.NavList li a {
+    color: aliceblue;
+    align-items: center;
+}
+
+.SignUser {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 30px;
+}
+
+.signCart {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.signCart li img {
+    border-radius: 150px;
+    padding: 2px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.cartProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cartProfile img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.namePic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameUser {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-dropdown-container {
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    top: 115%;
+    width: 100px;
+    left: 50;
+    background-color: #f7620c;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileLogout {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    height: 1px;
+    background-color: #ccc;
+    margin: 8px 0;
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+.MainList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.productdata {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: 16px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.productdata img {
+    width: 450px;
+    height: 180px;
+
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+
+}
+
+.productdata .productName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.productdata .productPrice {
+    font-size: 16px;
+    margin-top: 5px;
+}
